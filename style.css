@@ -1,0 +1,69 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 150px 450px;
+    display: grid;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    color: hsl(0, 0%, 100%);
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    margin: 20px 0px;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.btn-secondary {
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    align-content: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: bold;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1075px) {
+    body {
+        margin: 100px 25px;
+    }
+
+    .card {
+        display: block;
+        text-align: center;
+        padding: 25px;  
+    }
+       
+}
